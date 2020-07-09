@@ -1,0 +1,212 @@
+body
+{
+	background-color: #eff0f2;
+}
+.center
+{
+	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 45%;
+	height: 25%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+
+     
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.topnav {
+  overflow: hidden;              /*specifys what will hapen when content overflows an element box*/
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4289f4;
+  color: white;
+}
+
+.topnav a.special:hover
+{
+	background-color: #333;
+  color: black;
+
+}
+
+
+
+
+
+
+
+.ad1
+{
+	width: 60%;
+	height: 90px;
+	left: 20%;
+	right: 25%;
+position: relative;
+top: 2.5px;
+padding: 10px;
+
+
+} 
+
+.menu
+{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	top: 10px;
+}
+
+.image
+{
+	width: 100%;
+
+}
+
+#sliding
+{
+	width: 30%;
+    min-height: 605px;
+	padding-left: 10px;
+	left: 15%;
+	top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	position: relative;
+	border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+   
+     
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+     
+} 
+.right
+{
+ 
+    
+	min-height:530px;
+
+	width:25% ;
+	left: 50%;
+	top:316px;
+	border-style: solid;
+    border-width: 1px;
+	right: 10%;
+	padding-bottom: 8px;
+	padding: 10px;
+	position: absolute;
+	border-color: lightgray;
+	background-color: white;
+
+}
+
+
+
+table {
+
+   
+    width: 100%;
+    height: 100%;
+
+}
+
+td {
+	border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    height: 65px;
+	vertical-align: center;
+    font: 500 18px/18px Roboto,sans-serif;
+
+}
+#newsimg
+{
+	max-width: 90%;
+	
+
+}
+p
+{
+	 font-family: Georgia, serif;
+	 font-size: 20px;
+}
+
+h3,h1
+{
+	 font-family: Georgia, serif;
+}
+
+#hs
+{
+	font-size: 23px;
+}
+
+#te
+{
+	width: 50%;
+    min-height: 540px;
+	padding-left: 10px;
+	left: 5%;
+	top: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	position: relative;
+	border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    
+}
+
+
+#ad
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.adb
+{
+	padding: 10px;
+	width: 20%;
+	height: 28%;
+	top: 317px;
+	right: 10%;
+	left: 78%;
+	position: absolute;
+}

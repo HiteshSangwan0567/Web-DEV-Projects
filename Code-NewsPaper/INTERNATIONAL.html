@@ -1,0 +1,365 @@
+<!--Start the website-->
+<!--Horizontial bar-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="Hit1.html" class="active">Home</a>
+  <a href="Business.html">Business</a>
+  <a href="Sports.html">Sports</a>
+  <a href="Technology.html">Technology</a>
+  <a href="National.html">National</a>
+  <a href="International.html">International</a>
+  <a href="Login.html">Login</a>
+  <a href="Signup.html">Sign up</a>
+  <a href="Contact us.html">Contact us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Newsletter.html">Newsletter subscription</a>
+      <a href="Login1.html">Editors login</a>
+      <a href="Signup1.html">Editors Sign up</a>
+      <a href="Aboutthesite.html">About us</a>
+      </div>
+  </div> 
+  <a href="Aboutthesite.html">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2></h2>
+  <p></p>
+  <p></p>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+<!--Horizontial bar ends here-->
+
+	<title>INTERNATIONAL NEWS</title>
+	 <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1 id="I"><strong> INTERNATIONAL NEWS </strong></h1>
+  </div>
+	 
+<div class="row">
+  <div class="column">
+    <div class="container">
+     <body background="download.jpeg"  style="width:100%;">
+
+
+         <div class="slideshow-container">
+
+  
+           <div class="mySlides">
+           <img src="img1.jpeg" style="width:100%">
+           <div class="text"><a href="#n1">India wins admissibility argument in Vijay Mallya case in U.K. court.</a></div>
+           </div>
+
+           <div class="mySlides">
+           <img src="img2.jpeg" style="width:100%">
+           <div class="text"><a href="#n2">An age of peace starts now, says Kim Jong-un.</a></div>
+           </div>
+
+           <div class="mySlides">
+           <img src="img3.jpeg" style="width:100%">
+           <div class="text"><a href="#n3">Indian doctors denied U.K. visas.</a></div>
+           </div>
+
+           <div class="mySlides">
+           <img src="img4.jpeg" style="width:100%">
+           <div class="text"><a href="#n4">Macron defends new Iran nuclear plan, Trump outreach.</a></div>
+           </div>
+
+           <div class="mySlides">
+           <img src="img5.jpeg" style="width:100%">
+           <div class="text"><a href="#n5">Pakistani foreign minister Asif disqualified by court for holding UAE work permit.</a></div>
+           </div>
+         
+         </div>
+     </div>
+     <div class="news">
+          <div id="n1">
+            <h2>India wins admissibility argument in Vijay Mallya case in U.K. court.</h2>
+             <img src="img1.jpeg" style="width:100%">
+               <h3>"You want a hearing for the press,” Judge asks defence barrister.</h3>
+               <p> An attempt by the defence team of beleaguered businessman Vijay Mallya to rule out much of the evidence in the case against him presented by India suffered a setback on Friday as the judge ruled that most of the evidence produced thus far in the case would be admissible, save for an email conversation covered by legal professional privilege (LPP).</p>
+              <p>  Judge Emma Arbuthnot, who had in a previous hearing indicated this was likely to be the case, firmed up that “everything” aside from the LPP email would be taken into account, and that she would reserve judgement on this latter issue.</p>
+              <p>  This ruling, which will be welcomed by Indian authorities in the overall progression of the case, came during a hearing, in which the defence appeared to be pushing for more time, through a request for a further hearing, at which both sides could put across their closing arguments.
+              Defence barrister Ben Watson pushed for the hearing despite the judge’s questioning its utility.</p>
+              <p>  “You want a hearing for the press!” Judge Arbuthnot declared as Mr. Watson pushed for a “constructive exercise,” that was needed in the wake of the “significant public interest” in the case.</p>
+              <h3> Final hearing in July</h3>
+               <p>  A final hearing in July was agreed upon, with both sides set to present further details, including from the Indian side signed attestations from the compiling official of the evidence.</p>
+               <p> The brief hearing will add further time to an extradition proceeding already much beset by delays.Speaking after the hearing, outside the courtroom, Mr. Mallya denied suggestions that his legal team was attempting to stall proceedings, pointing to the fact that when attempting to settle upon a date for the final hearing, his team had pushed for a July date, rather than one in September that was suggested by the prosecution.
+               </p>
+              <p>   During the hearing it emerged that the prosecution had introduced further evidence relating to the role and disproportional assets of BK Batra, a former IDBI official who was arrested last year. “If you are looking for a motive this is an answer,” Prosecution lead barrister Mark Summers said, adding it was up to the judge how much weight was given to the new testimony.The judge dubbed the role of Batra, as presented in the prosecution case as that of a “villain.”</p>
+              <h3>  Further testimony from prison expert</h3>
+               <p>  The Defence also introduced further testimony from witness and prison expert Alan Mitchell, contesting the prison conditions that India had offered assurances on, in response to the judge’s request. While Mr. Summers insisted they had addressed the judge’s concerns, Mr. Watson said there were “real issues” with the veracity of the material supplied. “they don’t present a true fair and accurate picture,” he insisted pointing to one image meant to highlight amount of natural sunlight, but which appeared to have a discrepancy in it.</p>
+               <p>  After previous hearings when the quality of the documentation from India and the nature of its presentation faced questions, the judge appeared much more content on this count. She described as “very helpful” both a detailed note on the conspiracy charges facing Mr. Mallya should he be extradited to India, as well as a schedule of notional charges. “The most helpful thing I’ve found is the conspiracy note which clearly sets out the inferences and the real weight of the inferences,” she told the court.The prosecution will have a further six weeks to present further details, and the defence another four weeks to respond.The next hearing is set for July 11.
+               </p>
+               <a href ="#I">GO TO TOP</a>
+          </div>
+          <div id="n2">
+            <h2>An age of peace starts now, says Kim Jong-un</h2>
+             <img src="img2.jpeg" style="width:100%">
+               <h3>I came here to end the history of conflict, says the North Korean leader after meeting the South’s President Moon Jae-in</h3>
+               <p> North Korean leader Kim Jong-un, who met South Korean President Moon Jae-in on Friday in a historic summit, said a new age in inter-Korean relations has begun.“A new history starts now. An age of peace, from the starting point of history,” Mr. Kim wrote in Korean in a guest book in the South’s Peace House before talks began.
+              </p>
+              <p>  President Moon greeted Mr. Kim at the military demarcation line in Panmunjom where the men smiled and shook hands.</p>
+              <p> In an unplanned move, Mr. Kim invited Mr. Moon to step briefly across into North Korea, before the two leaders crossed back into South Korea holding hands.</p>
+              <h3> ‘Really moving’</h3>
+               <p>  “I was excited to meet at this historic place and it is really moving that you came all the way to the demarcation line to greet me in person,” Mr. Kim said, wearing his customary black Mao suit.</p>
+               <p> During a private meeting in the morning, Mr. Kim told Mr. Moon he came to the summit to end the history of conflict and joked he was sorry for waking Mr. Moon up with his early morning missile tests, a senior presidential official said.Mr. Moon and Mr. Kim released their joint declaration before a dinner banquet.</p>
+              <p>   Later, with their wives, they watched a music performance and held hands as they watched a montage of photos from their summit set to a K-pop song that included the words “be a family again”.After warm farewells, Mr. Kim was driven back to North Korea.It is not the first time leaders of North and South Korea have declared hopes for peace. Two earlier summits, in Pyongyang in 2000 and 2007, failed to halt the North’s weapons programmes or improve relations in a lasting way.
+              </p>
+              <h3>  Promises good results</h3>
+               <p>  “We will make efforts to create good results by communicating closely, in order to make sure our agreement signed today before the entire world, will not end as just a beginning like previous agreements before today,” Mr. Kim said after the summit.</p>
+               <p>  The U.S. said earlier it was hopeful talks on peace and prosperity would make progress and it looked forward to discussions with South Korea in preparation for the planned meeting of Donald Trump and Mr. Kim in coming weeks.Just months ago, Mr. Trump and Mr. Kim were trading threats and insults as the North made rapid advances in pursuit of nuclear-armed missiles capable of hitting the U.S.The U.S. stations 28,500 troops in South Korea as a legacy of the Korean War, which ended in a truce, not a peace treaty.
+               </p>
+               <p> The war pitted the South, U.N. and U.S. forces against the communist North, backed by China and Russia.Mr. Kim and Mr. Trump are expected to meet in late May or June. Mr. Trump said on Thursday he was considering several dates and venues.Meanwhile, UN Secretary-General Antonio Guterres applauded the “truly historic summit” between the leaders of North and South Korea and urged them to quickly turn their commitments into action. China’s Foreign Ministry also praised the leaders for their “courage”.
+               </p>
+               <a href ="#I">GO TO TOP</a>
+          </div>
+          <div id="n3">
+            <h2>Indian doctors denied U.K. visas</h2>
+             <img src="img3.jpeg" style="width:100%">
+               <h3>They had been recruited to fill crucial gaps in National Health Service roles</h3>
+               <p> A crisis governing the U.K. government over the implications of its tough immigration regime continued to spiral, amid revelations that hundreds of Indian doctors, who had been recruited to fill crucial gaps in National Health Service (NHS) roles had been unable to take up their duties after being denied their visas.</p>
+              <p>  “We are aware of a few hundred doctors, the majority of whom would be Indian,” said, Dr. Ramesh Mehta of the British Association of Physicians of Indian Origin who had been aiding public body Health Education England in an initiative to bring doctors from the Indian subcontinent — particularly India, Pakistan and Sri Lanka — to fill roles particularly in shortage professions such as emergency medicine and care for the elderly.</p>
+              <h3> ‘Learn and return’</h3>
+              <p>  BAPIO had agreed to assisting the scheme on the understanding that it would be a “learn and return” programme, where the doctors would receive training during their time in the U.K. to ensure it was an experience as beneficial to them as possible, and that it did not lead to a brain-drain in India or any other country they were coming from. The system could have benefited both India — by helping doctors further develop their skills in emergency medicine, while at the same time helping Britain meet acute staffing shortages that have plagued many trusts.</p>
+              <p> “We are very keen to support the NHS and this is extremely disappointing,” said Dr. Mehta. “The Home Office has been absolutely bureaucratic and they are stopping these doctors from coming in. We are aware that Ministers are looking into it but don’t know why there is a delay.”</p>
+              <p>  “These doctors are getting frustrated: they have jobs in India. Some are now saying they don’t want to come.”</p>
+
+              <p>  The issue of visas for non-EU doctors has been simmering for a while now, as monthly quotas for Tier 2 visas — the main category for work visas in the U.K. — was repeatedly hit, triggering a system which gave preference to filling shortage or PHD level roles.</p>
+               <p> “NHS organisations have been unable to obtain the required permits for months for essential medical colleagues, and we have called on the government to urgently address this serious problem,” said Danny Mortimer, chief executive of NHS Employers.
+               </p>
+               <a href ="#I">GO TO TOP</a>
+          </div>
+          <div id="n4">
+            <h2>Macron defends new Iran nuclear plan, Trump outreach</h2>
+             <img src="img4.jpeg" style="width:100%">
+               <h3>Macron insisted on the importance of talking to all sides, including Iran ally Russia, and said the world shouldn’t force anything on Iran. He acknowledged that he doesn’t know what Mr. Trump will decide.</h3>
+              <p>  France’s Emmanuel Macron has defended discussions with U.S. President Donald Trump for a new plan to curb Iranian nuclear weapons.</p>
+              <p>  Speaking to reporters before leaving Washington on Wednesday night, the French President said the new four-pronged agreement would be a “very important complement” to the existing 2015 accord.</p>
+              <p>  The plan announced during Macron’s trip is part of European efforts to persuade Mr. Trump not to abandon the accord next month.</p>
+              <p>  Mr. Trump calls the 2015 accord flawed. Iran’s President insisted the deal cannot be changed or built on.</p>
+              <p>  Mr. Macron insisted on the importance of talking to all sides, including Iran ally Russia, and said the world shouldn’t force anything on Iran. He acknowledged that he doesn’t know what Mr. Trump will decide.</p>
+              <p>German Chancellor Angela Merkel will discuss Iran with Mr. Trump on a visit Friday.</p>
+               <a href ="#I">GO TO TOP</a>         
+          </div>
+          <div id="n5">
+            <h2>Pakistani foreign minister Asif disqualified by court for holding UAE work permit</h2>
+             <img src="img5.jpeg" style="width:100%">
+               <h3>Mr. Asif is one of top leaders of ruling Pakistan Muslim League-Nawaz and his disqualification is considered as another huge blow to the party ahead of election scheduled to be held after June.</h3>
+               <p>  Pakistan’s Foreign Minister Khawaja Asif was on Thursday disqualified from holding office by the high court here for concealing details of his UAE work permit while contesting polls in 2013, in another major blow to the ruling PML-N party ahead of the general elections.</p>
+               <p>  In an unanimous verdict, a three-member special bench of the Islamabad High Court ruled that Mr. Asif was not truthful and honest and disqualified him under Article 62 (1) (f) of the Constitution.</p>
+               <p>  The petition was filed by Pakistan Tehreek-e-Insaf (PTI) leader Usman Dar, seeking disqualification of Mr. Asif for holding an Iqama (work permit) of the UAE.</p>
+               <p>  Mr. Dar who lost election against Mr. Asif in 2013 had challenged the qualification of Mr. Asif (68), as the member of parliament for not declaring his job and salary while contesting the polls.</p>
+               <p>  Mr. Asif will be unable to hold public or party office for life after the verdict.</p>
+               <p>  Article 62, which sets the precondition for a member of parliament to be “sadiq and ameen” (honest and righteous), is the same provision under which former prime minsiter Sharif was disqualified on July 28, 2017, in the Panama Papers case.</p>
+               <p>  Mr. Asif is one of top leaders of ruling Pakistan Muslim League-Nawaz and his disqualification is considered as another huge blow to the party ahead of election scheduled to be held after June.</p>
+               <p>  “The Registrar of this Court is directed to send certified copy of this judgment to the Election Commission for de-notifying the Respondent as Member of the National Assembly of Pakistan. A copy is also directed to be sent to the Speaker of National Assembly of Pakistan for information,” the court said.</p>
+               <p>  Reacting to the verdict, Mr. Asif said he will challenge it in the Supreme Court. “I never concealed my iqama,” he said.</p>
+               <p>  The PTI leader had urged the court to disqualify Mr. Asif, stating that the Supreme Court has already disqualified Mr. Sharif last year for having an ‘Iqama’ of working in the company of his sons and not declaring his “receivable salary”.</p>
+               <p>  The petitioner alleged that Mr. Asif had Unlimited Term Employment Contract with International Mechanical and Electrical Co. He was hired as a full-time employee in July, 2011 and held various positions.</p>
+               <p>  He claimed that Mr. Asif under the contract was to receive a monthly basic salary of AED 35,000 along with a monthly allowance of AED 15,000, which he did not declare.</p>
+               <p>  During the hearing, Mr. Asif had submitted a letter from the company that he was not full time employee and only worked as a consultant whose presence was not needed in the UAE, where the company is based.The bench, comprising Justice Athar Minallah, Justice Aamer Farooq and Justice Mohsin Akhtar Kayani, had reserved the verdict on April 10.</p>
+              <a href ="#I">GO TO TOP</a>
+          </div>
+     </div>
+    </div>
+    <div class="column">
+        <div id="box">
+        	<h1 id="H">HEADLINES</h1>
+        	<div>
+        	   <h2>Mi 6X (Mi A2) vs Xiaomi Redmi Note 5 Pro vs Zenfone Max Pro M1</h2>
+        	   <h2>Aditya Ghosh Resigns As IndiGo President, Rahul Bhatia Is Interim CEO</h2>
+        	   <h2>IPL Highlights: Delhi Daredevils Beat Kolkata Knight Riders By 55 Runs</h2>
+        	   <h2>Donald Trump Narrows Down Possible Kim Jong Un Summit Sites To "Two Or Three"</h2>
+        	   <h2>Mamma Mia! ABBA Make New Music After 35 Years</h2>
+        	   <h2>Donald Trump Hails Chinese President's "Great Help" On North Korea</h2>
+        	   <h2>Knife Attacker Kills Seven School Children, Wounds 12 In China: Official</h2>
+        	   <h2>World's Biggest Child Sacrifice Was Performed Here 500 Years Ago. Ruins Found</h2>
+        	   <h2>There May Be More Data Breaches In Future: Facebook Warns Investors</h2>
+        	   <h2>Prince Louis Arthur Charles: British Royals Prince William And Kate Middleton Name Their Baby</h2>
+        	   <h2>Facebook A "Morality-Free Zone", Threatens Academics: British Lawmaker</h2>
+        	   <h2>North, South Korea Agree To Goal Of Complete Denuclearisation Of Korean Peninsula</h2>
+        	   <h2>South Koreans Tune Into Summit... Even From Behind Bars</h2>
+        	   <h2>China Hails Courage Of North, South Korean Leaders</h2>
+          </div>
+      <div id="vid"> 
+       <h1 id="H">VIDEO GALLERY</h1>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/HD2OxqLU8Iw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/YAXtYHiAqJ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/U80m7-05sWI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/_hEPF90EO9A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/bYKNJ--GHGU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/L6-ehUzruDc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/BoNbsPTTYnY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/Oh43cVl1AAM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/_HLjC53emUM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/yG-ByDM-AIU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/xJuxrvGyqtY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br> 
+      <iframe width="580" height="380" src="https://www.youtube.com/embed/eqoanSlXxIE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  </div>
+</div>
+  <script>
+  	var slideIndex = 0;
+    showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+  </script>
+</div>
+<br>
+
+
+</body>
+</html>

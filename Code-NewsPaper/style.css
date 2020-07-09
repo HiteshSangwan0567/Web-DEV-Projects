@@ -1,0 +1,122 @@
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+#I
+{
+   text-align: center;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position:relative;
+  margin: auto;
+  padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+.header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.text
+{
+  font-size: 30px; 
+  text-align: left; 
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+#box
+{
+    float: right;
+    width: 600px;
+    height: 1600px;
+    position: absolute;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    border: 5px solid black;
+    margin: 0;
+    word-wrap: keep-all;
+}
+
+#H
+{
+   text-align: center;
+}
+#n1{
+    background-color: gold;
+    color: black;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    border: 5px solid black;
+}
+#n2{
+    background-color: silver;
+    color: black;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    border: 5px solid gold;
+}
+#n3{
+    background-color: red;
+    color: black;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    border: 5px solid silver;
+}
+#n4{
+    background-color: violet;
+    color: black;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    border: 5px solid red;
+}
+#n5{
+    background-color: green;
+    color: black;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    border: 5px solid maroon;
+}
+h2
+{
+  font-size: 30px; 
+  text-align: left; 
+}
+#vid
+{
+  padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    
+}

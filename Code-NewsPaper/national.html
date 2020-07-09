@@ -1,0 +1,349 @@
+<!--Start the website-->
+<!--Horizontial bar-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="Hit1.html" class="active">Home</a>
+  <a href="business.html">Business</a>
+  <a href="Sports.html">Sports</a>
+  <a href="Technology.html">Technology</a>
+  <a href="national.html">National</a>
+  <a href="INTERNATIONAL.html">International</a>
+  <a href="Login.html">Login</a>
+  <a href="Signup.html">Sign up</a>
+  <a href="Contact us.html">Contact us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Newsletter.html">Newsletter subscription</a>
+      <a href="Login1.html">Editors login</a>
+      <a href="Signup1.html">Editors Sign up</a>
+      <a href="Aboutthesite.html">About us</a>
+      </div>
+  </div> 
+  <a href="Aboutthesite.html">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2></h2>
+  <p></p>
+  <p></p>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+<!--Horizontial bar ends here-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NATIONAL NEWS</title>
+	 <link rel="stylesheet" href="stylen.css">
+</head>
+<body>
+	<div class="header">
+		<h1 id="I"><strong> NATIONAL NEWS </strong></h1>
+  </div>
+	 
+<div class="row">
+  <div class="column">
+    <div class="container">
+     <body background="ndownload.jpeg">
+
+
+         <div class="slideshow-container">
+
+  
+           <div class="mySlides">
+           <img src="nimg1.jpeg" style="width:100%">
+           <div class="text"><a href="#n1">Modi leaves for India after informal summit with President Xi in China</a></div>
+           </div>
+
+           <div class="mySlides">
+           <img src="nimg2.jpeg" style="width:100%">
+           <div class="text"><a href="#n2">The journalist is no more the last word, says Smriti Irani</a></div>
+           </div>
+
+           <div class="mySlides">
+           <img src="nimg3.jpeg" style="width:100%">
+           <div class="text"><a href="#n3">Telangana IRS officer Durishetty Anudeep tops Civil Services 2017 exam</a></div>
+           </div>
+
+           <div class="mySlides">
+           <img src="nimg4.jpeg" style="width:100%">
+           <div class="text"><a href="#n4">Congress Jan Akrosh rally to launch campaign for Karnataka, Rajasthan, Madhya Pradesh polls</a></div>
+           </div>
+
+           <div class="mySlides">
+           <img src="nimg5.jpeg" style="width:100%">
+           <div class="text"><a href="#n5">Allegations against Piyush Goyal a hit job: BJP</a></div>
+           </div>
+         
+         </div>
+     </div>
+     <div class="news">
+          <div id="n1">
+            <h2>Modi leaves for India after informal summit with President Xi in China</h2>
+             <img src="nimg1.jpeg" style="width:100%">
+               <h3>"We exchanged opinions on strengthening India-China relations and other international issues,” Mr. Modi said in a post.</h3>
+               <p> Prime Minister Narendra Modi on Saturday left for India after holding the two-day informal summit with Chinese President Xi Jinping in the central Chinese city, Wuhan.Mr. Modi had arrived in China on April 26 for the unprecedented informal summit with Mr. Xi.The Prime Minister held one-on-one talks with Xi which is being seen as an effort by India and China to rebuild trust and improve ties that were hit by the 73-day-long Doklam standoff in 2017.
+               </p>
+              <p> The two leaders exchanged views on “solidifying” the India-China relationship and decided to issue strategic guidance to their respective militaries to strengthen communications and to build trust and understanding.They recognised terrorism as common threat and committed to cooperate further on counter-terrorism.
+              <p> Mr. Modi also offered to host the next informal summit with Mr. Xi in India next year, a proposal which elicited a positive response from the Chinese President.The two leaders began their informal meetings way back in 2014 when Mr. Xi was hosted by Mr. Modi at the Sabarmati Ashram of Mahatma Gandhi in Gujarat. </p>
+              <p>They have met and interacted with each other in about a dozen international meetings since then.This is the fourth visit of Modi to China after he came to power in 2014. He is again due to visit China to take part in the SCO summit to be held at Qingdao city on June 9-10.Mr. Modi was seen off by Chinese Vice-Foreign Minster, Kong Xuanyou and Chinese Ambassador to India, Luo Zhaohui and other officials.</p>
+              <h3> 'Held extensive, fruitful talks'</h3>
+               <p>  Mr. Modi on Saturday said he held “extensive and fruitful” talks with Mr. Xi during their first round of two-day informal summit in Wuhan.“I am very pleased to meet with President Xi Jinping in Wuhan. We conducted extensive and fruitful talks and exchanged opinions on strengthening India-China relations and other international issues,” Mr. Modi said in a post on the popular Chinese social media site Weibo, where he has 1,83,112 followers.
+               </p>
+               <p> “Thank you, President Xi Jinping, for the wonderful gesture of personally accompanying me in the Hubei Provincial Museum. The Museum is home to great facets of Chinese history and culture,” he said.Mr. Modi and Mr. Xi are due to conclude their unprecedented informal summit on April 28, seen as an effort by India and China to rebuild trust and improve ties that were hit by the 73-day-long Doklam standoff last year. Mr. Modi is spending only about 24 hours in the central Chinese city of Wuhan, just months after a dispute between the two countries over a stretch of their high-altitude Himalayan border.
+               </p>
+              <h3>  More an informal meeting</h3>
+               <p>  Billed by both sides as an informal meeting rather than a summit, with none of the pomp and ceremony of a state visit such as 21-gun salutes, the two men held talks on Friday that lasted far longer than expected.Chinese state media has praised the tone of the trip so far.The overseas edition of the ruling Communist Party's official People's Daily said in a front page commentary on Saturday “two great countries ought to have great cooperation”, and showed a large picture of the two leaders shaking hands.
+               </p>
+               <p>  “There is reason to believe that this Wuhan meeting will increase mutual trust, manage and control disputes, deepen cooperation and lead to a new phase in China-India relations,” it said.“It is quite clear that strategic agreement between the two countries far exceeds the specific differences, and the need for cooperation far exceeds local friction,” it said.</p>
+               <a href ="#I">GO TO TOP</a>
+          </div>
+          <div id="n2">
+            <h2>The journalist is no more the last word, says Smriti Iranian</h2>
+             <img src="nimg2.jpeg" style="width:100%">
+               <h3>‘Readers more aware now due to digital media’</h3>
+               <p> The explosion of digital media has ensured that a journalist is not the last word on the narrative of any event. The end consumer can now question and challenge the reporter or the editor on the credibility and the source of the news, Information and Broadcasting Minister Smriti Irani said on Friday.She was speaking at the 69th valedictory session of the Development Journalism Course at the Indian Institute of Mass Communication.“There was a time when we presumed that only the journalist or the editor will be the last word on a news item. Today, because of digital intervention, the end consumer can also ask questions on the efficacy or source of the information,” the Minister said.
+               </p>
+              <h3>‘Strive for credibility’</h3>
+               <p>  “And that is why it is incumbent on us to strive for credibility. When one falls, it is not the fall of just one journalist, editor or one establishment, it is the imagery that is created for many to point fingers at,” Ms. Irani said.She rued that unlike in the past, where information was the key, today the news is a lot about ‘analysis and perspective.’The Minister pointed out that an average Indian spends 200 minutes a day on mobile app and that 65% of video consumption in our country is only from rural areas and is slated to grow further.“In this scenario, the media and entertainment industry should think about what new things can be offered to the rural consumers,” she said.In a light-hearted riposte to an international scholar from Bhutan who commented about “spicy” Indian food in her speech, the Minister said, “Our food is as spicy as the journalists back home here in India. So what you got is a taste of the kind of food we serve and but also of real adventure and spice of Indian journalism.”
+               </p>
+               <a href ="#I">GO TO TOP</a>
+          </div>
+          <div id="n3">
+            <h2>Telangana IRS officer Durishetty Anudeep tops Civil Services 2017 exam</h2>
+             <img src="nimg3.jpeg" style="width:100%"> 
+               <h3>He is currently posted as Assistant Commissioner, Central, GST, in Hyderabad. This is his fourth attempt at the Civil Services exam.</h3>
+               <p> Durishetty Anudeep, a native of Chittapur village near Metpally town in Jagityal district of Telangana, has emerged topper in the Civil Services examination this year. The results were declared on Friday.Anudeep, a bachelor, is presently in the Indian Revenue Services (IRS) and is posted as Assistant Commissioner, Central, GST, in Hyderabad. This is his fourth attempt at Civils. He worked with Google in Hyderabad before he got into IRS.
+               </p>
+              <h3> From BITS Pilani</h3>
+              <p>  An engineer from BITS Pilani in Rajashtan in 2011, he had his schooling from Suryodaya High School in Metpally. Anudeep’s father is an Assistant Engineer with the TS Transco, while his mother is a home-maker. The topper’s optional subject was anthropology though he is an engineer.Speaking to The Hindu, Anudeep said he was not expecting the first rank. “It is a tough exam and so many deserving candidates with brilliant minds attempt. So you can never expect a top rank,” he said with all humility.Anudeep prepared without assistance of any coaching institution. Meanwhile, R.C. Reddy IAS Study Circle said that he appeared for mock interview at their centre.
+              </p>
+              <h3>A sports buff</h3>
+              <p>
+                A sports buff, Anudeep has obsession for Roger Federer and Lionel Messi. In one of his Facebook posts, he praised Messi, saying the game of football is not really beautiful, it’s brutal but Messi has an artistic, symphonic beauty to his play that makes the brutal look beautiful.Expressing his love for sports, he posted, “So I asked myself what do I value more - sports, movies, books or music? Movies are good, books are great and music is soothing. But my life wouldn’t be half as joyful or interesting if it were not for the time I spend watching and playing sports.”
+                <br><br>
+                Several Telugu students bagged good ranks in the examination. Sai Praneeth, son of former Additional DG of Maharashtra, V. Lakshminarayana, bagged the 196th rank. Other successful Telugu candidates are Sheelam Sai (43), Narapureddy Maurya (100), G. Madhuri (144), Yedavalli Akshay Kumar (624), Vivek Jhonson (195) and Bhargav Shekar (816).<br><br>
+                PTI adds:<br><br>
+                A total of 990 candidates -- 750 men and 240 women -- have been recommended by the Commission for appointment to various Central government services, a government statement said.<br><br>
+                Anu Kumari and Sachin Gupta bagged the second and third position respectively in the coveted examination.
+
+              </p>
+               <a href ="#I">GO TO TOP</a>
+          </div>
+          <div id="n4">
+            <h2>Congress Jan Akrosh rally to launch campaign for Karnataka, Rajasthan, Madhya Pradesh polls</h2>
+             <img src="nimg4.jpeg" style="width:100%">
+              <p>  In his first public rally in capital after taking over as Congress party president, Rahul Gandhi will be sharing the stage with former Prime Minister Manmohan Singh and his mother Sonia Gandhi.</p>
+              <p>The Congress sees the rally, to take place on Sunday, as the beginning of its campaign for the Karnataka election, and the upcoming fights in Rajasthan and Madhya Pradesh.</p>
+              <p>“Other than the Congress president, Ms. Sonia Gandhi, Mr. Manmohan Singh and Leader of Opposition in the Rajya Sabha Ghulam Nabi Azad will be speaking at tomorrow’s ‘Jan Akrosh’ rally,” All India Congress Committee (AICC) general secretary Ashok Ghelot told reporters on Saturday.</p>
+              <p>Congress units in Haryana and Delhi are reportedly vying against each other to ensure that the Ram Lila Ground, the venue, is filled with cadre. The Delhi unit has issued bar-coded identity cards to ensure that whoever has enlisted his or her name for the rally actually attends it. Over a lakh workers are expected to be present at the ground.</p>
+              <p>In the last four years, every time the Congress wished to make a strong point on anything, it has fielded Dr. Singh — from his comments on demonetisation, referring to it as a “monumental disaster”, to berating Prime Minister Narendra Modi that the Congress did not not need sermons on “nationalism” from the Bharatiya Janata Party in the run-up to the Gujarat Assembly poll.</p>
+               <a href ="#I">GO TO TOP</a>         
+          </div>
+          <div id="n5">
+            <h2>Allegations against Piyush Goyal a hit job: BJP</h2>
+             <img src="nimg5.jpeg" style="width:100%">
+               <h3>Says facts show no wrongdoing.</h3>
+               <p> The BJP on Saturday dismissed the Congress’s “conflict of interest” accusation against Union Railway Minister Piyush Goyal as a “political hit job” based on baseless and malicious charges. The party alleged that it had become the Opposition party’s modus operandi to gain “cheap publicity” with incorrect allegations.</p>
+               <p>Coming out in defence of the Minister, the BJP said facts showed absolutely no wrongdoing or irregularity as he stopped all business activities and resigned from all directorships after he became a Minister.</p>
+               <p>The BJP said the date cited by the Congress of the sale of a firm, Flashnet, in which Mr. Goyal had ownership, was incorrect as it took place in July 2014 before the Ministers in the Modi government declared their assets and liabilities. This was done on July 25, 2014 and not on September 29, as alleged by the Opposition party.</p>
+               <p>“This sale was made at full market value as per third party, independent, expert valuation and the entire sale value was received in the bank before submitting the declaration and was fully reflected in the value of assets submitted,” it said. “It seems that Piyush Goyal, who had a successful investment banking career before he became a Minister, is being targeted because perhaps the Congress wishes to divert attention from the scandals of its leaders.”</p>
+              <a href ="#I">GO TO TOP</a>
+          </div>
+     </div>
+    </div>
+    <div class="column">
+        <div id="box">
+        	<h1 id="H">HEADLINES</h1>
+        	<div>
+        	   <h2>Social media heads of BJP, Congress trade charges over links to Vijay Mallya, Nirav Modi</h2>
+             <h2>Chemicals used to freshen up rotten meat in West Bengal, say police</h2>
+             <h2>Telangana CM K Chandrasekara Rao to meet DMK Chief Karunanidhi in Chennai</h2>
+             <h2>Rat chews on comatose patient's eye in Mumbai hospital</h2>
+             <h2>PM Narendra Modi to address the nation today in 43rd edition of Mann Ki Baat</h2>
+             <h2>Saket Court a perfect model among district courts in Delhi-NCR, says survey</h2>
+             <h2>In purported audio clip, Asaram calls himself 'Gandhivadi', follower of non-violence</h2>
+             <h2>Convicted politicans can't be stopped from heading their own parties, Centre tells Supreme Court</h2>
+             <h2>Rahul Gandhi's own Congress workers don't take him seriously: Nitin Gadkari</h2>
+             <h2>CJI Dipak Misra to soon convene Collegium meet to reconsider Justice K M Joseph for Supreme Court</h2>
+             <h2>Farmer body leader Ayakannu denied permission to hold hunger strike over formation of Cauvery Management Board</h2>
+      
+             
+          </div>
+      <div id="vid"> 
+       <h1 id="H">VIDEO GALLERY</h1>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/sDpuHfxJVpw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/uSn2hfGvuQM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/eQAwfupti7U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/dY7AhK0mc8g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/3xAhcqrejBI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/u_WnAWj6AIU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/JMNkfQwkRC4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/fCTOmqE9Cn4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/mKno5JkC8gw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/9P3FCqZok5E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br>
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/GzS9np3GaeE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <br><br><br> 
+      <iframe width="580" height="480" src="https://www.youtube.com/embed/E0fY0mzuOxo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  </div>
+</div>
+  <script>
+  	var slideIndex = 0;
+    showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+  </script>
+</div>
+<br>
+
+
+</body>
+</html>
